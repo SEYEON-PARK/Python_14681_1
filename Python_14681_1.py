@@ -8,10 +8,10 @@
 점 (x, y)의 사분면 번호(1, 2, 3, 4 중 하나)를 출력한다.
 """
 
-x=int(input())
+x=int(input()) # 사용자로부터 정수 입력받기
 y=int(input())
 
-if(x>0 and y>0):
+if(x>0 and y>0): # 만약, x가 0보다 크고 y가 0보다 크면
     print("1")
 if(x<0 and y>0):
     print("2")
