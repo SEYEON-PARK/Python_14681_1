@@ -12,7 +12,7 @@ x=int(input()) # 사용자로부터 정수 입력받기
 y=int(input())
 
 if(x>0 and y>0): # 만약, x가 0보다 크고 y가 0보다 크면
-    print("1")
+    print("1") # 출력하기
 if(x<0 and y>0):
     print("2")
 if(x<0 and y<0):
